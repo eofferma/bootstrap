@@ -3,188 +3,190 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
+.bootstrap-force {
+  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+}
+.bootstrap-force html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
+.bootstrap-force body {
   margin: 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+.bootstrap-force article,
+.bootstrap-force aside,
+.bootstrap-force details,
+.bootstrap-force figcaption,
+.bootstrap-force figure,
+.bootstrap-force footer,
+.bootstrap-force header,
+.bootstrap-force hgroup,
+.bootstrap-force main,
+.bootstrap-force menu,
+.bootstrap-force nav,
+.bootstrap-force section,
+.bootstrap-force summary {
   display: block;
 }
-audio,
-canvas,
-progress,
-video {
+.bootstrap-force audio,
+.bootstrap-force canvas,
+.bootstrap-force progress,
+.bootstrap-force video {
   display: inline-block;
   vertical-align: baseline;
 }
-audio:not([controls]) {
+.bootstrap-force audio:not([controls]) {
   display: none;
   height: 0;
 }
-[hidden],
-template {
+.bootstrap-force [hidden],
+.bootstrap-force template {
   display: none;
 }
-a {
+.bootstrap-force a {
   background-color: transparent;
 }
-a:active,
-a:hover {
+.bootstrap-force a:active,
+.bootstrap-force a:hover {
   outline: 0;
 }
-abbr[title] {
+.bootstrap-force abbr[title] {
   border-bottom: 1px dotted;
 }
-b,
-strong {
+.bootstrap-force b,
+.bootstrap-force strong {
   font-weight: bold;
 }
-dfn {
+.bootstrap-force dfn {
   font-style: italic;
 }
-h1 {
+.bootstrap-force h1 {
   margin: .67em 0;
   font-size: 2em;
 }
-mark {
+.bootstrap-force mark {
   color: #000;
   background: #ff0;
 }
-small {
+.bootstrap-force small {
   font-size: 80%;
 }
-sub,
-sup {
+.bootstrap-force sub,
+.bootstrap-force sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
-sup {
+.bootstrap-force sup {
   top: -.5em;
 }
-sub {
+.bootstrap-force sub {
   bottom: -.25em;
 }
-img {
+.bootstrap-force img {
   border: 0;
 }
-svg:not(:root) {
+.bootstrap-force svg:not(:root) {
   overflow: hidden;
 }
-figure {
+.bootstrap-force figure {
   margin: 1em 40px;
 }
-hr {
+.bootstrap-force hr {
   height: 0;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
-pre {
+.bootstrap-force pre {
   overflow: auto;
 }
-code,
-kbd,
-pre,
-samp {
+.bootstrap-force code,
+.bootstrap-force kbd,
+.bootstrap-force pre,
+.bootstrap-force samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-button,
-input,
-optgroup,
-select,
-textarea {
+.bootstrap-force button,
+.bootstrap-force input,
+.bootstrap-force optgroup,
+.bootstrap-force select,
+.bootstrap-force textarea {
   margin: 0;
   font: inherit;
   color: inherit;
 }
-button {
+.bootstrap-force button {
   overflow: visible;
 }
-button,
-select {
+.bootstrap-force button,
+.bootstrap-force select {
   text-transform: none;
 }
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+.bootstrap-force button,
+.bootstrap-force html input[type="button"],
+.bootstrap-force input[type="reset"],
+.bootstrap-force input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-button[disabled],
-html input[disabled] {
+.bootstrap-force button[disabled],
+.bootstrap-force html input[disabled] {
   cursor: default;
 }
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+.bootstrap-force button::-moz-focus-inner,
+.bootstrap-force input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-input {
+.bootstrap-force input {
   line-height: normal;
 }
-input[type="checkbox"],
-input[type="radio"] {
+.bootstrap-force input[type="checkbox"],
+.bootstrap-force input[type="radio"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
 }
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+.bootstrap-force input[type="number"]::-webkit-inner-spin-button,
+.bootstrap-force input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-input[type="search"] {
+.bootstrap-force input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-appearance: textfield;
 }
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+.bootstrap-force input[type="search"]::-webkit-search-cancel-button,
+.bootstrap-force input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-fieldset {
+.bootstrap-force fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
   border: 1px solid #c0c0c0;
 }
-legend {
+.bootstrap-force legend {
   padding: 0;
   border: 0;
 }
-textarea {
+.bootstrap-force textarea {
   overflow: auto;
 }
-optgroup {
+.bootstrap-force optgroup {
   font-weight: bold;
 }
-table {
+.bootstrap-force table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-td,
-th {
+.bootstrap-force td,
+.bootstrap-force th {
   padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -1065,70 +1067,66 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
-* {
+.bootstrap-force * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-*:before,
-*:after {
+.bootstrap-force *:before,
+.bootstrap-force *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
+.bootstrap-force html {
   font-size: 10px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-body {
+.bootstrap-force body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
 }
-input,
-button,
-select,
-textarea {
+.bootstrap-force input,
+.bootstrap-force button,
+.bootstrap-force select,
+.bootstrap-force textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
-a {
+.bootstrap-force a {
   color: #337ab7;
   text-decoration: none;
 }
-a:hover,
-a:focus {
+.bootstrap-force a:hover,
+.bootstrap-force a:focus {
   color: #23527c;
   text-decoration: underline;
 }
-a:focus {
+.bootstrap-force a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-figure {
+.bootstrap-force figure {
   margin: 0;
 }
-img {
+.bootstrap-force img {
   vertical-align: middle;
 }
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.bootstrap-force .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.img-rounded {
+.bootstrap-force .img-rounded {
   border-radius: 6px;
 }
-.img-thumbnail {
+.bootstrap-force .img-thumbnail {
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -1141,16 +1139,16 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
-.img-circle {
+.bootstrap-force .img-circle {
   border-radius: 50%;
 }
-hr {
+.bootstrap-force hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
 }
-.sr-only {
+.bootstrap-force .sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1160,8 +1158,8 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.bootstrap-force .sr-only-focusable:active,
+.bootstrap-force .sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
@@ -1169,291 +1167,291 @@ hr {
   overflow: visible;
   clip: auto;
 }
-[role="button"] {
+.bootstrap-force [role="button"] {
   cursor: pointer;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+.bootstrap-force h1,
+.bootstrap-force h2,
+.bootstrap-force h3,
+.bootstrap-force h4,
+.bootstrap-force h5,
+.bootstrap-force h6,
+.bootstrap-force .h1,
+.bootstrap-force .h2,
+.bootstrap-force .h3,
+.bootstrap-force .h4,
+.bootstrap-force .h5,
+.bootstrap-force .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
+.bootstrap-force h1 small,
+.bootstrap-force h2 small,
+.bootstrap-force h3 small,
+.bootstrap-force h4 small,
+.bootstrap-force h5 small,
+.bootstrap-force h6 small,
+.bootstrap-force .h1 small,
+.bootstrap-force .h2 small,
+.bootstrap-force .h3 small,
+.bootstrap-force .h4 small,
+.bootstrap-force .h5 small,
+.bootstrap-force .h6 small,
+.bootstrap-force h1 .small,
+.bootstrap-force h2 .small,
+.bootstrap-force h3 .small,
+.bootstrap-force h4 .small,
+.bootstrap-force h5 .small,
+.bootstrap-force h6 .small,
+.bootstrap-force .h1 .small,
+.bootstrap-force .h2 .small,
+.bootstrap-force .h3 .small,
+.bootstrap-force .h4 .small,
+.bootstrap-force .h5 .small,
+.bootstrap-force .h6 .small {
   font-weight: normal;
   line-height: 1;
   color: #777;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
+.bootstrap-force h1,
+.bootstrap-force .h1,
+.bootstrap-force h2,
+.bootstrap-force .h2,
+.bootstrap-force h3,
+.bootstrap-force .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-h1 small,
-.h1 small,
-h2 small,
-.h2 small,
-h3 small,
-.h3 small,
-h1 .small,
-.h1 .small,
-h2 .small,
-.h2 .small,
-h3 .small,
-.h3 .small {
+.bootstrap-force h1 small,
+.bootstrap-force .h1 small,
+.bootstrap-force h2 small,
+.bootstrap-force .h2 small,
+.bootstrap-force h3 small,
+.bootstrap-force .h3 small,
+.bootstrap-force h1 .small,
+.bootstrap-force .h1 .small,
+.bootstrap-force h2 .small,
+.bootstrap-force .h2 .small,
+.bootstrap-force h3 .small,
+.bootstrap-force .h3 .small {
   font-size: 65%;
 }
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+.bootstrap-force h4,
+.bootstrap-force .h4,
+.bootstrap-force h5,
+.bootstrap-force .h5,
+.bootstrap-force h6,
+.bootstrap-force .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-h4 small,
-.h4 small,
-h5 small,
-.h5 small,
-h6 small,
-.h6 small,
-h4 .small,
-.h4 .small,
-h5 .small,
-.h5 .small,
-h6 .small,
-.h6 .small {
+.bootstrap-force h4 small,
+.bootstrap-force .h4 small,
+.bootstrap-force h5 small,
+.bootstrap-force .h5 small,
+.bootstrap-force h6 small,
+.bootstrap-force .h6 small,
+.bootstrap-force h4 .small,
+.bootstrap-force .h4 .small,
+.bootstrap-force h5 .small,
+.bootstrap-force .h5 .small,
+.bootstrap-force h6 .small,
+.bootstrap-force .h6 .small {
   font-size: 75%;
 }
-h1,
-.h1 {
+.bootstrap-force h1,
+.bootstrap-force .h1 {
   font-size: 36px;
 }
-h2,
-.h2 {
+.bootstrap-force h2,
+.bootstrap-force .h2 {
   font-size: 30px;
 }
-h3,
-.h3 {
+.bootstrap-force h3,
+.bootstrap-force .h3 {
   font-size: 24px;
 }
-h4,
-.h4 {
+.bootstrap-force h4,
+.bootstrap-force .h4 {
   font-size: 18px;
 }
-h5,
-.h5 {
+.bootstrap-force h5,
+.bootstrap-force .h5 {
   font-size: 14px;
 }
-h6,
-.h6 {
+.bootstrap-force h6,
+.bootstrap-force .h6 {
   font-size: 12px;
 }
-p {
+.bootstrap-force p {
   margin: 0 0 10px;
 }
-.lead {
+.bootstrap-force .lead {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
-  .lead {
+  .bootstrap-force .lead {
     font-size: 21px;
   }
 }
-small,
-.small {
+.bootstrap-force small,
+.bootstrap-force .small {
   font-size: 85%;
 }
-mark,
-.mark {
+.bootstrap-force mark,
+.bootstrap-force .mark {
   padding: .2em;
   background-color: #fcf8e3;
 }
-.text-left {
+.bootstrap-force .text-left {
   text-align: left;
 }
-.text-right {
+.bootstrap-force .text-right {
   text-align: right;
 }
-.text-center {
+.bootstrap-force .text-center {
   text-align: center;
 }
-.text-justify {
+.bootstrap-force .text-justify {
   text-align: justify;
 }
-.text-nowrap {
+.bootstrap-force .text-nowrap {
   white-space: nowrap;
 }
-.text-lowercase {
+.bootstrap-force .text-lowercase {
   text-transform: lowercase;
 }
-.text-uppercase {
+.bootstrap-force .text-uppercase {
   text-transform: uppercase;
 }
-.text-capitalize {
+.bootstrap-force .text-capitalize {
   text-transform: capitalize;
 }
-.text-muted {
+.bootstrap-force .text-muted {
   color: #777;
 }
-.text-primary {
+.bootstrap-force .text-primary {
   color: #337ab7;
 }
-a.text-primary:hover,
-a.text-primary:focus {
+a.bootstrap-force .text-primary:hover,
+a.bootstrap-force .text-primary:focus {
   color: #286090;
 }
-.text-success {
+.bootstrap-force .text-success {
   color: #3c763d;
 }
-a.text-success:hover,
-a.text-success:focus {
+a.bootstrap-force .text-success:hover,
+a.bootstrap-force .text-success:focus {
   color: #2b542c;
 }
-.text-info {
+.bootstrap-force .text-info {
   color: #31708f;
 }
-a.text-info:hover,
-a.text-info:focus {
+a.bootstrap-force .text-info:hover,
+a.bootstrap-force .text-info:focus {
   color: #245269;
 }
-.text-warning {
+.bootstrap-force .text-warning {
   color: #8a6d3b;
 }
-a.text-warning:hover,
-a.text-warning:focus {
+a.bootstrap-force .text-warning:hover,
+a.bootstrap-force .text-warning:focus {
   color: #66512c;
 }
-.text-danger {
+.bootstrap-force .text-danger {
   color: #a94442;
 }
-a.text-danger:hover,
-a.text-danger:focus {
+a.bootstrap-force .text-danger:hover,
+a.bootstrap-force .text-danger:focus {
   color: #843534;
 }
-.bg-primary {
+.bootstrap-force .bg-primary {
   color: #fff;
   background-color: #337ab7;
 }
-a.bg-primary:hover,
-a.bg-primary:focus {
+a.bootstrap-force .bg-primary:hover,
+a.bootstrap-force .bg-primary:focus {
   background-color: #286090;
 }
-.bg-success {
+.bootstrap-force .bg-success {
   background-color: #dff0d8;
 }
-a.bg-success:hover,
-a.bg-success:focus {
+a.bootstrap-force .bg-success:hover,
+a.bootstrap-force .bg-success:focus {
   background-color: #c1e2b3;
 }
-.bg-info {
+.bootstrap-force .bg-info {
   background-color: #d9edf7;
 }
-a.bg-info:hover,
-a.bg-info:focus {
+a.bootstrap-force .bg-info:hover,
+a.bootstrap-force .bg-info:focus {
   background-color: #afd9ee;
 }
-.bg-warning {
+.bootstrap-force .bg-warning {
   background-color: #fcf8e3;
 }
-a.bg-warning:hover,
-a.bg-warning:focus {
+a.bootstrap-force .bg-warning:hover,
+a.bootstrap-force .bg-warning:focus {
   background-color: #f7ecb5;
 }
-.bg-danger {
+.bootstrap-force .bg-danger {
   background-color: #f2dede;
 }
-a.bg-danger:hover,
-a.bg-danger:focus {
+a.bootstrap-force .bg-danger:hover,
+a.bootstrap-force .bg-danger:focus {
   background-color: #e4b9b9;
 }
-.page-header {
+.bootstrap-force .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
-ul,
-ol {
+.bootstrap-force ul,
+.bootstrap-force ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-ul ul,
-ol ul,
-ul ol,
-ol ol {
+.bootstrap-force ul ul,
+.bootstrap-force ol ul,
+.bootstrap-force ul ol,
+.bootstrap-force ol ol {
   margin-bottom: 0;
 }
-.list-unstyled {
+.bootstrap-force .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-.list-inline {
+.bootstrap-force .list-inline {
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
 }
-.list-inline > li {
+.bootstrap-force .list-inline > li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
-dl {
+.bootstrap-force dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
-dt,
-dd {
+.bootstrap-force dt,
+.bootstrap-force dd {
   line-height: 1.42857143;
 }
-dt {
+.bootstrap-force dt {
   font-weight: bold;
 }
-dd {
+.bootstrap-force dd {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  .dl-horizontal dt {
+  .bootstrap-force .dl-horizontal dt {
     float: left;
     width: 160px;
     overflow: hidden;
@@ -1462,68 +1460,68 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .dl-horizontal dd {
+  .bootstrap-force .dl-horizontal dd {
     margin-left: 180px;
   }
 }
-abbr[title],
-abbr[data-original-title] {
+.bootstrap-force abbr[title],
+.bootstrap-force abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #777;
 }
-.initialism {
+.bootstrap-force .initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
-blockquote {
+.bootstrap-force blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eee;
 }
-blockquote p:last-child,
-blockquote ul:last-child,
-blockquote ol:last-child {
+.bootstrap-force blockquote p:last-child,
+.bootstrap-force blockquote ul:last-child,
+.bootstrap-force blockquote ol:last-child {
   margin-bottom: 0;
 }
-blockquote footer,
-blockquote small,
-blockquote .small {
+.bootstrap-force blockquote footer,
+.bootstrap-force blockquote small,
+.bootstrap-force blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
   color: #777;
 }
-blockquote footer:before,
-blockquote small:before,
-blockquote .small:before {
+.bootstrap-force blockquote footer:before,
+.bootstrap-force blockquote small:before,
+.bootstrap-force blockquote .small:before {
   content: '\2014 \00A0';
 }
-.blockquote-reverse,
-blockquote.pull-right {
+.bootstrap-force .blockquote-reverse,
+.bootstrap-force blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   text-align: right;
   border-right: 5px solid #eee;
   border-left: 0;
 }
-.blockquote-reverse footer:before,
-blockquote.pull-right footer:before,
-.blockquote-reverse small:before,
-blockquote.pull-right small:before,
-.blockquote-reverse .small:before,
-blockquote.pull-right .small:before {
+.bootstrap-force .blockquote-reverse footer:before,
+.bootstrap-force blockquote.pull-right footer:before,
+.bootstrap-force .blockquote-reverse small:before,
+.bootstrap-force blockquote.pull-right small:before,
+.bootstrap-force .blockquote-reverse .small:before,
+.bootstrap-force blockquote.pull-right .small:before {
   content: '';
 }
-.blockquote-reverse footer:after,
-blockquote.pull-right footer:after,
-.blockquote-reverse small:after,
-blockquote.pull-right small:after,
-.blockquote-reverse .small:after,
-blockquote.pull-right .small:after {
+.bootstrap-force .blockquote-reverse footer:after,
+.bootstrap-force blockquote.pull-right footer:after,
+.bootstrap-force .blockquote-reverse small:after,
+.bootstrap-force blockquote.pull-right small:after,
+.bootstrap-force .blockquote-reverse .small:after,
+.bootstrap-force blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
-address {
+.bootstrap-force address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
@@ -6457,8 +6455,8 @@ button.close {
 }
 .clearfix:before,
 .clearfix:after,
-.dl-horizontal dd:before,
-.dl-horizontal dd:after,
+.bootstrap-force .dl-horizontal dd:before,
+.bootstrap-force .dl-horizontal dd:after,
 .container:before,
 .container:after,
 .container-fluid:before,
@@ -6491,7 +6489,7 @@ button.close {
   content: " ";
 }
 .clearfix:after,
-.dl-horizontal dd:after,
+.bootstrap-force .dl-horizontal dd:after,
 .container:after,
 .container-fluid:after,
 .row:after,
